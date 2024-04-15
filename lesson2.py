@@ -1,0 +1,1 @@
+age = input("Please enter your age: ")
