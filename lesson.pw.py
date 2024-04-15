@@ -2,4 +2,5 @@
 name = input("Please enter your name: ")
 
 # Respond with a greeting
-print(f"Hello, {name}!")
+print(f"Hello friend!, {name}!")
+
