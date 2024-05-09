@@ -2,7 +2,7 @@ import tkinter as tk
 from subprocess import run
 
 
-def bluescreen():
+def redscreen():
     root = tk.Tk()
     root.attributes('-fullscreen', True)  # Use full-screen mode
     root.wm_attributes('-topmost', True)  # Use Sticky mode
@@ -18,6 +18,6 @@ def close_explorer():
 
 
 if __name__ == '__main__':
-    root = bluescreen()
+    root = redscreen()
     close_explorer()
     root.mainloop()
